@@ -3,7 +3,7 @@ import "./App.css";
 import Result from "./components/Result";
 
 class App extends Component {
-  state = { result: "", previousResult: "", operation: "" };
+  state = { result: "" };
   clear = () => {
     this.setState({
       result: ""
